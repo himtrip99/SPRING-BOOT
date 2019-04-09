@@ -1,0 +1,9 @@
+---
+applications:
+  - name: asset-data-service
+    path: target/asset-service-0.0.1.jar
+    domain: cfapps.io
+    memory: 1G
+    instances: 1
+    services:
+      - oracle-db
