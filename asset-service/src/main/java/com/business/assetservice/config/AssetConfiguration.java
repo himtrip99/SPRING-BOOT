@@ -18,9 +18,9 @@ public class AssetConfiguration {
 
     public static final Logger logger = LoggerFactory.getLogger(AssetController.class);
 
-    private String dbUrl = "<URL>";
-    private String username = "<USERNAME>";
-    private String password = "<PASSWORD>";
+    private String dbUrl = "jdbc:oracle:thin:@127.0.0.1:1521/XE";
+    private String username = "system";
+    private String password = "oracle";
 
     @Bean
     public DataSource dataSource() {
