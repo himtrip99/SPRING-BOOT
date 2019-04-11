@@ -52,7 +52,7 @@ public class AssetControllerIT {
                 then().statusCode(200)
         .body("assetId", equalTo(1))
         .body("assetName", equalTo("Box1"))
-        .body("assetOwner", equalTo("Himanshu Tripathi"));
+        .body("assetOwner", equalTo("Tripathi"));
     }
 
 }
